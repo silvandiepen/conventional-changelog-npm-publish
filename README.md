@@ -37,7 +37,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@master
         with:
-          node-version: 12.x
+          node-version: 16.x
           registry-url: 'https://npm.pkg.github.com'
       # optional
       - run: npm install
